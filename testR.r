@@ -24,7 +24,7 @@ as.logical(x) # convertie en logique
 max(5, 10, 15) # retourne le maximum
 min(5, 10, 15) # retourne le minimum
 sum(5, 10, 15) # retourne la somme
-mean(5, 10, 15) # retourne la moyenne
+mean(c(5, 10, 15)) # retourne la moyenne
 sqrt(16) # retourne la racine carree
 abs(-5.3) # retourne la valeur absolue
 ceiling(5.3) # retourne le plafond
@@ -111,3 +111,16 @@ for (x in fruits) {
   }
   # print(x) # nolint
 }
+adj <- list("red", "big", "tasty")
+
+fruits <- list("apple", "banana", "cherry")
+for (x in adj) {
+  for (y in fruits) {
+    # print(paste(x, y, sep = "-")) # nolint
+  }
+}
+my_fonction <- function() {
+  print("Hello, World!")
+}
+# my_fonction() appel de la fonction
+petederiri <- mean(14, 16)

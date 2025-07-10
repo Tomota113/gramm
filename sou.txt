@@ -1,0 +1,95 @@
+  1  ls
+    2  cd /
+    3  ls
+    4  cd home
+    5  ls
+    6  sudo adduser student
+    7  ls
+    8  mkdir uie/l1/bi/g1
+    9  mkdir -p uie/l1/bi/g1
+   10  cd
+   11  mkdir -p uie/l1/bi/g1
+   12  ls
+   13  cd uie
+   14  ls
+   15  cd l1
+   16  ls
+   17  cd bi
+   18  ls
+   19  cd g1
+   20  ls
+   21  mkdir linux
+   22  ls
+   23  mkdir "reseau informatique" python
+   24  ls
+   25  cd reseau\ informatique/
+   26  mkdir ch{1..3}
+   27  ls
+   28  touch TP{1..5}
+   29  ls
+   30  cd ../linux
+   31  cd
+   32  ls
+   33  pwd
+   34  cd uie/l1/bi/g1/linux
+   35  pwd
+   36  cd uie
+   37  cd ../../..
+   38  cd
+   39  ls
+   40  cd uie
+   41  cd l1/bi/g1/linux
+   42  cd
+   43  cd uie/l1
+   44  cd bi/g1/linux
+   45  ls
+   46  pwd
+   47  mkdir tomp
+   48  ls
+   49  rmdir tomp
+   50  ls
+   51  mkdir tompo
+   52  rm -r tompo
+   53  ls
+   54  ls -l
+   55  mkdir ttt
+   56  ls
+   57  ls -l
+   58  cd
+   59  ls
+   60  ls -l
+   61  ls -l -r
+   62  ls -l -R
+   63  ls 'reseau informatique'
+   64  ls "reseau informatique"
+   65  ls uie/l1/bi/g1/"reseau informatique"
+   66  ls -l  uie/l1/bi/g1/"reseau informatique"
+   67  ls
+   68  ls -l
+   69  ls -l -R
+   70  history
+   71  help
+   72  ls -l
+   73  ls -lr
+   74  ls -rl
+   75  ls -l -r
+   76  ls -rlh
+   77  ls -rlhs
+   78  ls -l  uie/l1/bi/g1/"reseau informatique"
+   79  ls -l  uie/l1/bi/g1/"reseau informatique"/ch2
+   80  ls -la  uie/l1/bi/g1/"reseau informatique"/ch2
+   81  mkdir  uie/l1/bi/g1/"reseau informatique"/ch2/big
+   82  ls
+   83  ls  uie/l1/bi/g1/"reseau informatique"/ch2/big
+   84  ls  uie/l1/bi/g1/"reseau informatique"/ch2
+   85  ls -l  uie/l1/bi/g1/"reseau informatique"/ch2
+   86  ls -l  uie/l1/bi/g1/"reseau informatique"
+   87  cat TP1
+   88  cat uie/l1/bi/g1/"reseau informatique"/TP1
+   89  echo fjiodfjd >tomota
+   90  ls
+   91  echo fjiodfjd >tomota1
+   92  cat tomota1
+   93  echo dddd>tomota1
+   94  cat tomota1
+   95  history
